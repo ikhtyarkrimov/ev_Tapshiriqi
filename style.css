@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+    margin: 0 auto; 
+    font-family: "Poppins", sans-serif;
+    background-color: #FFF5F0;
+}
+/* Headrer */
+
+.container  {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    margin-top: 18px;
+    background-color: #ff9e66;
+}
+.container-text {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    color: #262626;
+}
+
+.nav {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.home {
+    border: 1px solid black;
+    padding: 25px 34px;
+
+}
+.about {
+    border: 1px solid black;
+    padding: 25px 34px;
+}
+.academics {
+    border: 1px solid black;
+    padding: 25px 34px;
+}
+
+.student-life {
+    border: 1px solid black;
+    padding: 25px 34px;
+}
+.contact {
+    border: 1px solid black;
+    padding: 25px 34px;
+}
+a {
+    text-decoration: none;
+    color: #262626;
+}
+
+.home:hover {
+    background-color: #f8caad;
+}
+.about:hover {
+    background-color: #f8caad;
+}
+.academics:hover {
+    background-color: #f8caad;
+}
+.student-life:hover {
+    background-color: #f8caad;
+}
+.contact:hover {
+    background-color: #f8caad;
+}
+
+.logodiv {
+    background-color: #FF804D;
+    display: flex;
+    padding: 18px 24px;
+}
+
+.logo {
+    background-color: #FF804D;
+    width: 40px;
+    height: 40px ;
+}
+
+.logodiv h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+/* Main */
+
+.main-container {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 150px 40px;
+    margin-top: 60px;
+    border-radius: 8px;
+    text-align: start;
+    box-shadow: 8px 8px 8px 1px #1E1E1E;
+}
+
+.abstract-img {
+    position: absolute;
+    top: 227px;
+    left: 255px;
+    width: 140px;
+    height: 140px;
+}
+
+.leader {
+    width: 765px;
+    height: 124px;
+    font-size: 20px;
+    line-height: 150%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.btn {
+    border: 2px solid #262626;
+    background-color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.btn:hover {
+    background-color: #ff9e66;
+}
+.success {
+    font-size: 48px;
+    font-weight: 500;
+    
+}
+
+/* 1ci section */
+
+.special-features {
+    font-size: 48px;
+    font-weight: 500;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.featuresbtn {
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 20px;
+    margin: 19px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.featuresbtn:hover {
+    background-color: #ff9e66;
+}
+
+.our {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    color: #1a1a1a;
+    margin: 10px;
+}
+
+.our_text {
+    line-height: 150%;
+    font-size: 20px;
+    font-weight: 500;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+
+.card-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px;
+}
+
+
+.cards {
+    background-color: #FFFFFF;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    padding: 40px 30px 30px 30px;
+    position: relative;
+    box-shadow: 6px 6px 0px 0px #262626;
+    margin-top: 25px;
+
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.2);
+    transition: all 0.3 ease;
+    border: 2px solid #ff9e66;
+}
+
+.iconbox {
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    background-color: #FFE5D9;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #262626;
+    box-shadow: 3px 3px 0px 0px #262626;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #262626;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #4C4C4C;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.studentcards-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px;
+}
+
+.studentcards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.3 ease;
+    border: 2px solid #ff9e66;
+}
+
+.studentcards {
+    background-color: #FFFFFF;
+    border: 2px solid #262626;
+    border-radius: 12px;
+    padding: 10px 30px 30px 30px;
+    position: relative;
+    box-shadow: 6px 6px 0px 0px #262626;
+    margin-top: 20px;
+    z-index: 1;
+}
+
+.imgbox img {
+    max-width: 100%;
+    width: 398px;
+    height: auto;
+    z-index: 1;
+}
+
+.shapeimg-box img {
+    width: 100px;
+    height: 270px;
+    position: absolute;
+    top: 0px;
+    right: 140px;
+    z-index: -1;
+}
+
+.img_title {
+    text-align: center;
+    font-size: 20px;
+    color: #262626;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+
+.img_text {
+    text-align: center;
+    font-size: 14px;
+    color: #4C4C4C;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.rooms-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 100px;
+}
+
+.btns {
+    background-color: #FFFFFF;
+    border: 2px solid #262626;
+    border-radius: 8px;
+    padding: 14px 20px;
+    font-size: 20px;
+    line-height: 130%;
+}
+
+.btns:hover {
+    background-color: #ff9e66;
+}
