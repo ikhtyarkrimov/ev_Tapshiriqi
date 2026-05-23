@@ -343,3 +343,71 @@ a {
 .btns:hover {
     background-color: #ff9e66;
 }
+
+.hero-classrooms {
+    padding: 120px;
+    
+}
+
+.classroomcontainer {
+    background: #FFFFFF;
+    border: 2px solid #1a1a1a;
+    border-radius: 14px;
+    position: relative;
+    box-sizing: 0 10px 0 #1a1a1a;
+
+}
+.classroomsgaleriy {
+    gap: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 250px;
+    left: 80px;
+}
+
+.classroomsgaleriy img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+.classroomcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 100px;
+}
+
+.classromtext h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    /* line-height: 130%; */
+    color: #1a1a1a;
+}
+
+.classromtext p {
+    color: #4c4c4d;
+    line-height: 130%;
+    font-size: 22px;
+    font-weight: 500;
+
+}
+
+.classromsbtn {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.classbtns {
+    border: 2px solid black;
+}
